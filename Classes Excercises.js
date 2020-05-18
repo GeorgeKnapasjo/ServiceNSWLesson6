@@ -89,5 +89,9 @@ let myPet = new Pet("rex", 6, 29)
 console.log(Pet.findOwnerById(myPet, owners))
 
 
-
+class Square {
+    constructor(sideLength){
+        this.sideLength = sideLength
+    }
+}
 
